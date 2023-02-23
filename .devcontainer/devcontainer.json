@@ -38,6 +38,7 @@
       "extensions": [
         "esbenp.prettier-vscode",
         "dtsvet.vscode-wasm",
+        "hardhat.vscode-hardhat",
         "redhat.vscode-yaml"
       ]
     }
