@@ -17,19 +17,7 @@ rustup default nightly
 cargo install cargo-dylint dylint-link
 cargo install --force --locked cargo-contract
 
-swanky_folder="/opt/swanky"
-
-if [ ! -d "$swanky_folder" ]; then
-  wget -O /tmp/swanky.tar.gz https://github.com/AstarNetwork/swanky-cli/releases/download/v1.0.11/swanky-v1.0.11-103b620-linux-x64.tar.gz && sudo tar -xf /tmp/swanky.tar.gz -C /opt
-fi
-
-link_path="/usr/local/bin/swanky"
-swanky_bin_path="/opt/swanky/bin/swanky"
-
-if [ ! -L "$link_path" ]; then
-  sudo ln -s "$swanky_bin_path" "$link_path"
-fi
-
 sudo chown vscode /workspace
 
 npm i -g serve
+npm i -g @astar-network/swanky-cli
