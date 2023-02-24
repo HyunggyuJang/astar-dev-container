@@ -38,8 +38,9 @@
       "extensions": [
         "esbenp.prettier-vscode",
         "dtsvet.vscode-wasm",
-        "hardhat.vscode-hardhat",
-        "redhat.vscode-yaml"
+        "NomicFoundation.hardhat-solidity",
+        "hbenl.vscode-mocha-test-adapter",
+        "redhat.vscode-yaml",
       ]
     }
   }

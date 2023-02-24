@@ -21,4 +21,3 @@ sudo chown vscode /workspace
 
 npm i -g serve
 npm i -g @astar-network/swanky-cli
-npm i -g hardhat
