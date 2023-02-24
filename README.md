@@ -7,12 +7,15 @@ Dev container is a Visual Studio Code extension that allows for sharing a full d
 This means you can develop your project inside a preconfigured container with all prerequisites met and correct dependencies installed. 
 
 This includes WASM smart contract development tools: 
+
 - Rust compiler
 - `cargo contract`
 - `swanky-cli`
+
 along with EVM smart contract development tools:
+
 - Hardhat
-- Mocha test runner
+- Mocha test explorer
 
 ## Prerequisites
 
@@ -46,7 +49,7 @@ First run will take a while as it needs to build the container and install all t
 
 ### Host shared folder
 
-As a part of the installation process, a folder named `swanky` will be created in your `HOME`.
+As a part of the installation process, a folder named `astar` will be created in your `HOME`.
 
 It is mounted to `/host-home` in the container, and you can use it to share files with the host OS, for example, compiled contracts for uploading and instantiating on the contracts UI.
 
@@ -56,15 +59,12 @@ To interact with your project (including calling `swanky` commands), use VS Code
 
 ## Updating swanky version
 
-Swanky is installed into `/opt/swanky`, and the main executable is linked to `/usr/local/bin/swanky`.
+Swanky is installed using `npm`.
 
 To update the Swanky version you can use the following steps:
 
 ```bash
-sudo rm -rf /opt/swanky /usr/local/bin/swanky
-wget -O /tmp/swanky.tar.gz [new_version_url]
-sudo tar -xf /tmp/swanky.tar.gz -C /opt
-sudo ln -s /opt/swanky/bin/swanky /usr/local/bin/swanky
+npm update -g @astar-network/swanky-cli
 ```
 
 ## Configure and modify the container
@@ -100,3 +100,5 @@ To add a feature, simply copy it's reference into the `features` field.
 - [Dev containers manual](https://code.visualstudio.com/docs/devcontainers/containers)
 - [Dev container specification](https://containers.dev/)
 - [swanky-cli](https://github.com/AstarNetwork/swanky-cli)
+- [Hardhat](https://hardhat.org/)
+- [Mocha](https://mochajs.org/)
