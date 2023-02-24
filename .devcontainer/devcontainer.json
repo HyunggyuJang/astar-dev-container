@@ -1,12 +1,12 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
-  "name": "Swanky-env",
+  "name": "Astar-env",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
   "build": { "dockerfile": "Dockerfile" },
 
   // Mount the workspace volume
-  "workspaceMount": "source=swanky-workspace-volume,target=/workspace,type=volume",
+  "workspaceMount": "source=astar-workspace-volume,target=/workspace,type=volume",
   "workspaceFolder": "/workspace",
 
   // Features to add to the dev container. More info: https://containers.dev/features.
@@ -20,10 +20,10 @@
 
   // it can probably be done in a more efficient way
   // if no other use is found for this mount, it should be removed
-  "initializeCommand": ".devcontainer/scripts/create-swanky-shared.sh ${localEnv:HOME}${localEnv:USERPROFILE}/swanky",
+  "initializeCommand": ".devcontainer/scripts/create-astar-shared.sh ${localEnv:HOME}${localEnv:USERPROFILE}/astar",
 
   "mounts": [
-    "source=${localEnv:HOME}${localEnv:USERPROFILE}/swanky,target=/host-home,type=bind,consistency=cached"
+    "source=${localEnv:HOME}${localEnv:USERPROFILE}/astar,target=/host-home,type=bind,consistency=cached"
   ],
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.

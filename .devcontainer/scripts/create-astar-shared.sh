@@ -10,5 +10,5 @@ else
   echo "Folder $folder_path already exists."
 fi
 
-echo "user:$(git config user.name)" > ~/swanky/git_creds
-echo "email:$(git config user.email)" >> ~/swanky/git_creds
+echo "user:$(git config user.name)" > ~/astar/git_creds
+echo "email:$(git config user.email)" >> ~/astar/git_creds

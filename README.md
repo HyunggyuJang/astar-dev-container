@@ -1,10 +1,18 @@
-# Swanky dev container
+# Astar WASM/EVM integrated dev container
 
 ## Intro
 
 Dev container is a Visual Studio Code extension that allows for sharing a full dev environment.
 
-This means you can develop your project inside a preconfigured container with all prerequisites met and correct dependencies installed. This includes Rust compiler, `cargo contract` and `swanky-cli`.
+This means you can develop your project inside a preconfigured container with all prerequisites met and correct dependencies installed. 
+
+This includes WASM smart contract development tools: 
+- Rust compiler
+- `cargo contract`
+- `swanky-cli`
+along with EVM smart contract development tools:
+- Hardhat
+- Mocha test runner
 
 ## Prerequisites
 
