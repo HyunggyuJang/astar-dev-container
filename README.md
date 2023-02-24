@@ -15,6 +15,7 @@ This includes WASM smart contract development tools:
 along with EVM smart contract development tools:
 
 - Hardhat
+- Foundry
 - Mocha test explorer
 
 ## Prerequisites
@@ -101,4 +102,5 @@ To add a feature, simply copy it's reference into the `features` field.
 - [Dev container specification](https://containers.dev/)
 - [swanky-cli](https://github.com/AstarNetwork/swanky-cli)
 - [Hardhat](https://hardhat.org/)
+- [Foundry](https://book.getfoundry.sh/)
 - [Mocha](https://mochajs.org/)

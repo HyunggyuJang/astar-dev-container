@@ -30,7 +30,7 @@
   // "forwardPorts": [],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "bash /tmp/swanky-setup.sh",
+  "postCreateCommand": "bash /tmp/swanky-setup.sh && curl -L https://foundry.paradigm.xyz | bash",
   // "overrideCommand": true,
   // Configure tool-specific properties.
   "customizations": {

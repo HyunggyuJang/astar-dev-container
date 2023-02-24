@@ -20,4 +20,4 @@ cargo install --force --locked cargo-contract
 sudo chown vscode /workspace
 
 npm i -g serve
-npm i -g @astar-network/swanky-cli
+npm i -g @arthswap/swanky-cli
