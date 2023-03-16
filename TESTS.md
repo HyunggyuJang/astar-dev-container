@@ -73,7 +73,7 @@ Then answer for the following prompts with
 ✔ What do you want to do? · Create a TypeScript project  
 ✔ Hardhat project root: · ./  
 ✔ Do you want to add a .gitignore? (Y/n) · y  
-✔ Do you want to install this sample project'ss dependencies with npm (hardhat @nomicfoundation/hardhat-toolbox)? (Y/n) · y  
+✔ Do you want to install this sample project's dependencies with npm (hardhat @nomicfoundation/hardhat-toolbox)? (Y/n) · y  
 ```
 
 Now let&rsquo;s test it!  
