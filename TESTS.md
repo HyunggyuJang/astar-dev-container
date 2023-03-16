@@ -73,7 +73,7 @@ Then answer for the following prompts with
 ✔ What do you want to do? · Create a TypeScript project  
 ✔ Hardhat project root: · ./  
 ✔ Do you want to add a .gitignore? (Y/n) · y  
-✔ Do you want to install this sample project&rsquo;s dependencies with npm (hardhat @nomicfoundation/hardhat-toolbox)? (Y/n) · y  
+✔ Do you want to install this sample project'ss dependencies with npm (hardhat @nomicfoundation/hardhat-toolbox)? (Y/n) · y  
 ```
 
 Now let&rsquo;s test it!  
@@ -96,7 +96,7 @@ Lock
     Validations  
       ✔ Should revert with the right error if called too soon  
       ✔ Should revert with the right error if called from another account  
-      ✔ Shouldn&rsquo;t fail if the unlockTime has arrived and the owner calls it  
+      ✔ Shouldn't fail if the unlockTime has arrived and the owner calls it  
     Events  
       ✔ Should emit an event on withdrawals  
     Transfers  
