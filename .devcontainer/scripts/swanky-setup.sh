@@ -8,14 +8,11 @@ git config --global "user.email" $git_email
 
 rustup default stable
 rustup update
-rustup update nightly
 rustup component add rust-src
-rustup component add rust-src --toolchain nightly
-rustup target add wasm32-unknown-unknown --toolchain nightly
-rustup default nightly
+rustup target add wasm32-unknown-unknown
 
 cargo install cargo-dylint dylint-link
-cargo install --force --locked cargo-contract
+cargo install --force --locked cargo-contract --version 2.1.0
 
 sudo chown vscode /workspace
 
