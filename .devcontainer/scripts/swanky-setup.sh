@@ -6,7 +6,7 @@ git_email=$(grep -oP "(?<=email:).*" /host-home/git_creds) || git_email=""
 git config --global "user.name" $git_user
 git config --global "user.email" $git_email
 
-rustup default stable
+rustup default nightly-2023-01-23
 rustup update
 rustup component add rust-src
 rustup target add wasm32-unknown-unknown
